@@ -18,7 +18,7 @@ from io import BytesIO
 
 
 
-con_string = "mongodb+srv://Ashwin-Forecast:root@cluster0.wheso4t.mongodb.net/test"
+con_string = "mongodb+srv://<username>:<password >@cluster0.wheso4t.mongodb.net/test"
 
 client = pymongo.MongoClient(con_string)
 
